@@ -1,0 +1,131 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+    
+.menu{
+    background-color: rgb(255, 255, 255);
+    height: 60;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(107, 102, 102);
+    font-size: 15px;
+    padding: 20px 10px;
+    letter-spacing: 5px;
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a{
+    text-decoration: none;
+    color: rgb(119, 122, 122);
+    
+}
+
+.menu_items li:hover, li:active{
+    text-decoration: underline;
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 400px;
+    background-image: url("img/building.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.text-img{
+    color: #fff;
+    font-size: 65px;
+    font-weight:bold;
+    text-align: center;
+    padding: 150px;
+    
+}
+
+h4{
+    margin: 15px 0 15px 50px;
+    color: gray;
+}
+
+hr{
+    width: 90%;
+    margin-left: 50px;
+    color: gray;
+}
+
+.box{
+    width: auto;
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 40px;
+    
+}
+.card{
+    padding-top: 25px;
+}
+
+.img-top{
+    width: 300px;
+    height: 200px;
+}
+
+.card-title{
+    margin: 10px 0 10px 0;
+}
+
+.card-text{
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.btn{
+    background-color: rgb(233, 231, 231);
+    font-family: Arial;
+    font-weight: bolder;
+    color: gray;
+    font-size: 10px;
+    padding: 8px 125px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card a:hover, a:active{
+   color: #ffffff;
+   background-color: #817d7d;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: gray;
+    background-color: lightgrey;
+    padding-bottom: 10px;
+}
